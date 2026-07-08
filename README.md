@@ -1,75 +1,138 @@
-# React + TypeScript + Vite
+# 🚀 FlowTask
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>Modern Project Management SaaS built with React, TypeScript and Firebase.</b>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 About the Project
 
-## React Compiler
+FlowTask is a modern project management application designed to help teams organize projects, manage tasks and monitor productivity through an intuitive and responsive interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The objective of this project is to build a scalable web application applying modern frontend development practices, clean architecture and reusable components.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🚧 **Currently under development**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Planned features:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 🔐 User Authentication
+- 📊 Dashboard Analytics
+- 📁 Project Management
+- ✅ Task Management
+- 📋 Kanban Board
+- 📅 Calendar View
+- 👥 Team Management
+- 🌙 Dark / Light Mode
+- 📱 Responsive Design
 
+---
+
+## 🛠️ Technologies
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS v4
+- shadcn/ui
+- React Router
+
+### State Management
+
+- Zustand
+
+### Forms
+
+- React Hook Form
+- Zod
+
+### Backend
+
+- Firebase Authentication
+- Cloud Firestore
+
+### Tools
+
+- Git
+- GitHub
+- ESLint
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── dashboard/
+│   ├── layout/
+│   ├── projects/
+│   ├── tasks/
+│   └── ui/
+├── context/
+├── data/
+├── firebase/
+├── hooks/
+├── layouts/
+├── pages/
+├── routes/
+├── services/
+├── styles/
+├── types/
+└── utils/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository:
 
+```bash
+git clone https://github.com/angelcondoy19-lgtm/flowtask.git
 ```
+
+Go to the project folder:
+
+```bash
+cd flowtask
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+🚧 Screenshots will be added soon.
+
+---
+
+## 👨‍💻 Author
+
+**Ángel Condoy**
+
+Engineering student in Information and Communication Technologies.
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
